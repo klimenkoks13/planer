@@ -1,0 +1,47 @@
+section {
+    display: flex;
+    height: 100vh;
+}
+
+.authorization_branding {
+    width: 45%;
+    flex-direction: column;
+    text-align: left;
+    background-color: #0D0D0D;
+    color: #FFFFFF;
+
+    padding: 4rem 3rem;
+}
+
+.logo{
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.authorization_branding h1{
+    width: 100%;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    font-style: italic;
+}
+
+.authorization_branding p {
+    font-size: 1rem;
+    max-width: 500px;
+    text-align: left;
+    color: #888888;
+    margin-bottom: 2rem;
+}
+
+.authorization {
+    width: 55%;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    background-color: #FAFAFA;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
