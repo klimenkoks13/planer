@@ -1,9 +1,10 @@
-section {
+.authorizationPage {
     display: flex;
     height: 100vh;
 }
 
-.authorization_branding {
+.authorizationBranding {
+    display: flex;
     width: 45%;
     flex-direction: column;
     text-align: left;
@@ -11,6 +12,7 @@ section {
     color: #FFFFFF;
 
     padding: 4rem 3rem;
+
 }
 
 .logo{
@@ -18,15 +20,15 @@ section {
     font-size: 2rem;
 }
 
-.authorization_branding h1{
+.authorizationBranding h1{
     width: 100%;
     font-size: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     text-align: left;
     font-style: italic;
 }
 
-.authorization_branding p {
+.authorizationBranding > p {
     font-size: 1rem;
     max-width: 500px;
     text-align: left;
@@ -34,7 +36,35 @@ section {
     margin-bottom: 2rem;
 }
 
-.authorization {
+.features {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+.features > div {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.features > div > p{
+    font-size: 1rem;
+    max-width: 500px;
+    text-align: left;
+    color: #888888;
+}
+
+.features > div > span{
+    font-size: 1rem;
+    max-width: 500px;
+    text-align: left;
+    color: #ffeea6;
+}
+
+
+.authorizationForm {
     width: 55%;
     height: 100vh;
     flex-direction: column;
