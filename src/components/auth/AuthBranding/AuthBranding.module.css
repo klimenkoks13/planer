@@ -1,0 +1,67 @@
+.authBranding {
+    display: flex;
+    width: 45%;
+    background-color: var(--color-bg-dark);
+    padding: 4rem 3rem;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.brandingWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: flex-start;
+    color: var(--color-text-primary);
+    position: relative;
+    z-index: 1;
+}
+
+.brandingHeading {
+    width: 100%;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    font-style: italic;
+    font-family: 'DM Serif Diaplay', Georgia, serif;
+}
+
+.brandingHeading em{
+    color: var(--color-accent-pink);
+}
+
+.brandingParagraph {
+    font-size: 1rem;
+    max-width: 500px;
+    text-align: left;
+    color: var(--color-text-muted);
+    margin-bottom: 2rem;
+}
+
+.featuresWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+.featureBlock {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.featureIcon {
+    font-size: 1rem;
+    max-width: 500px;
+    text-align: left;
+    color: var(--color-accent-yellow);
+}
+
+.featureText {
+    font-size: 1rem;
+    max-width: 500px;
+    text-align: left;
+    color: var(--color-text-muted);
+}

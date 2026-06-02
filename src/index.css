@@ -1,5 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&display=swap');
+
+
+:root {
+  --color-bg-dark: #0D0D0D;
+  --color-bg-light: #FAFAFA;
+
+  --color-text-primary: #FFFFFF;
+  --color-text-muted: #888888;
+
+  --color-btn-bg-dark: #121212;
+  --color-btn-bg-dark-hover: #222222;
+
+  --color-accent-yellow: #ffeea6;
+  --color-accent-pink: #FFD6E0;
+
+  --color-input-border: #E8E8E8;
+
+  --color-icon-light: #FFFFFF;
+  --color-icon-dark: #0D0D0D;
+  --border-radius: 0.5rem;
+}
+
 html {
   font-size: 20px;
+  font-family: 'Sora', 'DM Sans', system-ui, sans-serif;
 }
 
 * {

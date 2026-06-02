@@ -1,0 +1,14 @@
+.sideBar {
+    background-color: var(--color-bg-dark);
+    width: 15%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+}
+
+/*.sideBar:last-child {*/
+/*    margin-top: auto;*/
+/*}*/

@@ -1,0 +1,17 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 0.8rem;
+    padding: 0.2rem 0.2rem;
+    border: none;
+    border-radius: var(--border-radius);
+    background-color: var(--color-btn-bg-dark-hover);
+    cursor: pointer;
+    color: var(--color-text-primary);
+}
+
+.button:hover {
+    background-color: var(--color-btn-bg-dark-hover);
+}

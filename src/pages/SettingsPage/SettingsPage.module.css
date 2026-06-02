@@ -1,0 +1,77 @@
+.authorizationPage {
+    display: flex;
+    height: 100vh;
+}
+
+.authorizationBranding {
+    display: flex;
+    width: 45%;
+    background-color: var(--color-bg-dark);
+    padding: 4rem 3rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.brandingWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: flex-start;
+    color: var(--color-text-primary);
+    position: relative;
+    z-index: 1;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    font-family: 'DM Serif Diaplay', Georgia, serif;
+}
+
+.logo > svg {
+    color: var(--color-icon-light);
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-right: 1rem;
+}
+
+.brandingHeading {
+    width: 100%;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    font-style: italic;
+    font-family: 'DM Serif Diaplay', Georgia, serif;
+}
+
+.brandingHeading em{
+    color: var(--color-accent-pink);
+}
+
+.brandingParagraph {
+    font-size: 1rem;
+    max-width: 500px;
+    text-align: left;
+    color: var(--color-text-muted);
+    margin-bottom: 2rem;
+}
+
+.featuresWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+.authorizationForm {
+    width: 55%;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--color-bg-light);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
